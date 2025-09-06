@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A dynamic site with monthly seasonal color themes.">
+    <meta name="keywords" content="seasonal themes, css transitions, dynamic colors">
+    <title>The Wheel of Seasons</title>
+    <link rel="stylesheet" href="_css/monthly.css">
+    <script src="_js/scripts.js"></script>
+</head>
+<body>
+    <header class="bg-1">
+        <img src="_img/logo.jpg" alt="Wheel of Seasons Logo" class="logo-img">
+        <h1>The Wheel of Seasons</h1>
+    </header>
+    <main class="bg-2">
+        <section id="theme-selector" class="theme-selector">
+            <label for="month-select">Choose a Month:</label>
+            <select id="month-select" onchange="setMonth(this.value)">
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9" selected>September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+        </section>
+        <section id="content" class="content">
+            <h2>The Dance of Seasons</h2>
+            <p>
+                Time turns, a ceaseless wheel, each season a brushstroke on the world’s canvas. Winter’s reds and blues freeze the heart in January’s hush, then thaw into February’s purples, whispering of spring. April blooms in vibrant skies, its blues and corals bursting with life, only to melt into May’s greening warmth. By July, Summer’s electric greens and magentas pulse under endless sun, fading to August’s ripening yellows. September, now glowing, weaves Summer’s fire into Fall’s amber rest, October’s golden sigh. November chills, reds creeping back, until December’s rosy glow heralds Winter’s return.
+            </p>
+            <blockquote>
+                “Each hue a moment, each month a breath, the seasons spin through life and death.”
+            </blockquote>
+            <p>
+                Watch the colors shift, month by month, as the Wheel of Seasons paints time’s eternal rhythm. Select a month above to witness its palette, or let the year’s pulse guide the hues.
+            </p>
+        </section>
+    </main>
+    <footer class="bg-3">
+        <p>&copy; 2025 The Wheel of Seasons. Crafted with time’s hues.</p>
+        <p>Enhanced with assistance from Grok, created by xAI.</p>
+    </footer>
+</body>
+</html>
