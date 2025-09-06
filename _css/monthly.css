@@ -1,0 +1,14 @@
+:root {
+    --header-bg: #c09b1e; /* September default */
+    --bg2-bg: #e6f282;
+    --footer-bg: #764f5f;
+    --body-bg: #7c9392;
+    --body-text: #6a373a;
+    --footer-text: #75d17e;
+}
+h1 { font-family: 'Orbitron', sans-serif; color: var(--body-text); }
+header.bg-1 { background-color: var(--header-bg); color: #ffffff; padding: 10px; }
+.bg-2 { background-color: var(--bg2-bg); color: var(--body-text); padding: 10px; }
+footer.bg-3 { background-color: var(--footer-bg); color: var(--footer-text); padding: 10px; }
+body { background-color: var(--body-bg); color: var(--body-text); }
+.logo-img { width: 100px; }
